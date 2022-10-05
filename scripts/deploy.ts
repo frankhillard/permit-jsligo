@@ -41,7 +41,7 @@ const deploy = async () => {
         permits: new MichelsonMap(),
         userExpiries: new MichelsonMap(),
         permitExpiries: new MichelsonMap(),
-        tokenTotalSupply: new MichelsonMap(),
+        extension: new MichelsonMap(),
       },
       // ^ storage extension ove generic FA2
     };
